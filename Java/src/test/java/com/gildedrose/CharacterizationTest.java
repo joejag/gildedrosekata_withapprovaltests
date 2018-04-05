@@ -7,7 +7,7 @@ import java.io.PrintStream;
 
 import static org.junit.Assert.assertEquals;
 
-public class TexttestFixture {
+public class CharacterizationTest {
 
     String expected = "-------- day 0 --------\n" +
             "name, sellIn, quality\n" +
@@ -250,7 +250,7 @@ public class TexttestFixture {
             "Conjured Mana Cake, -16, 0\n\n";
 
     @Test
-    public void acceptanceTest() {
+    public void characterizationTest() {
         Item[] items = new Item[] {
                 new Item("+5 Dexterity Vest", 10, 20), //
                 new Item("Aged Brie", 2, 0), //
